@@ -1,0 +1,211 @@
+\documentclass[
+    pdflatex,
+    fontsize=8pt,
+    draft=true,
+    twoside
+]{article}
+\usepackage{emptypage}
+\usepackage{watermark}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[
+    nohead,
+    nomarginpar,
+    a5paper,
+    bindingoffset=8mm,
+    twoside,
+    asymmetric,
+    % left=6mm,
+    % right=6mm,
+    % outermargin=12mm,
+    width=120mm,
+    top=12mm,
+    bottom=16mm
+]{geometry}
+\usepackage{array}
+\usepackage{makecell}
+\usepackage{qrcode}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks, linkcolor=black
+}
+\usepackage{pgfpages}
+\usepackage{fancyhdr}
+\usepackage[style=iso]{datetime2}
+\pagestyle{fancy}
+\fancyhead[LE,RO]{}
+\fancyhead[LO,RE]{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.2pt}
+\usepackage{tabularx}
+\usepackage{tabularray}
+\setlength{\parindent}{0pt}
+\usepackage[english]{babel}
+\usepackage{lipsum}
+
+\usepackage[absolute,overlay]{textpos}
+\usepackage{graphicx}
+% \usepackage{txfonts}
+\usepackage{marvosym}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% tabularray: longtblr stuff
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RenewDocumentCommand\TblrAlignBoth{}{\justifying}
+\DefTblrTemplate{contfoot}{default}{}   % Removes text denoting continuation on next page
+
+\NewTblrTheme{TASMenu}{
+    \DefTblrTemplate{caption-tag}{default}{}
+    \DefTblrTemplate{caption-sep}{default}{}
+    % \SetTblrInner{rowsep=2em}
+}
+\SetTblrOuter[longtblr]{
+    postsep=.5\bigskipamount
+}
+\SetTblrInner[longtblr]{
+    belowsep=0pt
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Macros
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand*\TableStart{%
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill} } l l r}
+}
+
+
+\newcommand*\MenuSection[1]{%
+    \multicolumn{3}{c}{\LARGE{#1}} \\ \hline \hline \\
+}
+
+\newcommand*\TableEnd{%
+\end{tabular*}
+}
+
+% params:
+% 1. Price Big     | 1a
+% 2. Price Small   | 1b
+% 3. Vintage       | 2
+% 4. Winery        |
+% 5. Name of Wine  |
+% 6. Grape Variety |
+% 7. Winemaker     |
+% 8. Region        |
+\newcommand*\LineItem[8]{
+    \makecell[l]{#1 / #2} & \makecell[l]{#3 #4 #5 #6 \\ #7} & \makecell[r]{#8} \\
+}
+
+\newcommand*\ItemDescription[1]{%
+    \multicolumn{3}{p{\textwidth}}{#1} \\
+}
+
+\newcommand*\BlankRow{%
+    \multicolumn{3}{c}{ ~ } \\
+}
+
+\newcommand*\FoodBlankRow{%
+    \multicolumn{3}{c}{ ~ } \\
+}
+
+\newcommand*\FoodDescription[1]{%
+    \multicolumn{2}{p{120mm}}{\fontsize{8pt}{8pt}{#1}} \\
+}
+
+\begin{document}
+
+\begin{centering}
+    \includegraphics[
+        width=\textwidth
+    ]{Art Syndicate_LOGO_v2_FINAL.png} \\
+    % The actual logo goes here. This is just a placeholder.
+\end{centering}
+
+\newpage
+% \includegraphics{rules.png}
+\begin{tabular}{c m{120mm} c}
+    \MenuSection{House Rules}
+    \ItemDescription{~}
+\end{tabular}
+
+\begin{enumerate}
+    \item No name-dropping. Leave your entitlement and status at the door.
+    \item Please respect our neighbours' property. Refrain from smoking or loitering outside.
+    \item Direct and severe eye contact is recommended for all patrons toasting.
+    \item No yelling, hollering, shouting, fighting, screaming, or other loud behaviour unless it is an attempt to warn fellow patrons or employees of impending doom or a police raid.
+    \item Feel free to work or play here in a manner consistent with other patrons' peaceful enjoyment.
+    \item Do not bring anyone unless you would leave that person alone in your home. You are responsible for the behaviour of your guests. This place is meant to be a home away from home for all patrons; do not be ``that person''.
+    \item We are here to serve and tell stories. If you would like to delve deeper into what you are drinking, what adorns the walls, and the history behind such things, feel free to ask questions.
+    \item We do not have a superior bathroom for clandestine indulgences. Take the hint, and refrain from bringing such activities into our establishment.
+    \item Exit the bar swiftly and quietly. People are endeavouring to sleep across the street and above us. Kindly finalise your travel plans and bid your farewells before departing the premises.
+\end{enumerate}
+~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\
+A surcharge of $10\%$ applies on Sundays and $15\%$ applies on public
+holidays.
+
+
+\newpage
+\begin{centering}
+    \includegraphics[width=\textwidth]{Wine Map.png}
+\end{centering}
+\\
+At The Art Syndicate, we pride ourselves on exclusively showcasing local wines, beers, and spirits from all over NSW. Each region has unique qualities which manifest themselves in their own distinctive ways. For more information about a region or any of our selection, please do not hesitate to ask Lisa or Saxon!
+
+\newpage
+\input{wine_tables.tex}
+
+\newpage
+\begin{longtblr}[
+    theme = TASMenu,
+    caption = \LARGE{Tap Beer},
+    halign = j,
+    valign = m,
+]{
+    width = \textwidth,
+    colspec = cll,
+    % hlines,
+    % vlines,
+}
+\hline\hline
+\SetCell[c=3]{\linewidth} & & \\
+9.5 & {Tap beer \\ } &                             Ask about our latest tap beers, or just look at our tap. \\
+\end{longtblr}
+
+% \newpage
+\input{beer_cider_table.tex}
+
+\newpage
+\input{cocktails_table.tex}
+
+\newpage
+\input{spirits_tables.tex}
+
+\newpage
+\input{more_spirits_table.tex}
+
+\newpage
+\input{non_alcoholic_table.tex}
+
+\newpage
+\input{food_table.tex}
+Please be aware that our dishes may contain allergens such as nuts,
+seafood, gluten, soy, eggs, and dairy.
+
+\newpage
+At The Art Syndicate, we offer a unique experience by immersing guests in a collection of original vintage posters and contemporary art spanning from the late 1800s through to present day. We create an engaging atmosphere that seamlessly combines historical appreciation with contemporary style. For those with a interest in building their own collection, we welcome you to arrange a private appointment to explore our stockroom. Alternatively, you can conveniently browse and acquire original artworks through our website. Whether you're seeking a distinctive addition to your establishment or a meaningful acquisition for your personal collection, The Art Syndicate can find the perfect artwork for you.
+\\~\\
+\begin{center}
+    \qrcode{https://www.theartsyndicate.com.au}
+    \\~\\
+    \url{www.theartsyndicate.com.au}
+\end{center}
+\fancyfoot[R]{\footnotesize\DTMnow}
+\begin{textblock*}{\linewidth}[0,0](8mm,\dimexpr\paperheight-20mm\relax)
+    \footnotesize{
+        \texttt{Typset with $\heartsuit$ in \LaTeX~ by Adam Carmichael in Sydney, NSW}
+    }
+\end{textblock*}
+
+
+\end{document}
