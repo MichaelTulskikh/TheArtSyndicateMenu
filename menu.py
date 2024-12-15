@@ -6,7 +6,7 @@ file_path = 'data.xlsx'
 df = pd.read_excel(file_path, sheet_name='The Data')
 
 filtered_df = df[df.iloc[:, 0].str.contains(r'\bWine - ', na=False)]
-filtered_df = filtered_df.drop(12)
+# filtered_df = filtered_df.drop(12)
 
 # Define LaTeX templates
 def format_region(region):
