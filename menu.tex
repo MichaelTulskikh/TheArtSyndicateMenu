@@ -6,6 +6,7 @@
 ]{article}
 \usepackage{emptypage}
 \usepackage{watermark}
+\usepackage{needspace}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[
@@ -42,6 +43,27 @@
 \setlength{\parindent}{0pt}
 \usepackage[english]{babel}
 \usepackage{lipsum}
+\usepackage{xparse}
+\usepackage{multirow}
+
+\NewDocumentCommand{\WineEntry}{ m m m m m m m m m }{
+    % Price and wine details row
+    #1 / #2 & {#3 #4 #5 \\ #6 \\ #7} & {#8} \\
+    % #1 - Glass Price
+    % #2 - Bottle Price
+    % #3 - Vintage
+    % #4 - Winery
+    % #5 - Name of Wine
+    % #6 - Grape Variety
+    % #7 - Winemaker
+    % #8 - Region
+    % #9 - Description
+    % #1 & {#2 #3 \\ #4 \\ #5} & {#6} \\
+    % Description row
+    \SetCell[c=3]{\linewidth}{#9} \\
+    % Spacing row
+    \SetCell[c=3]{\linewidth} & & \\
+}
 
 \usepackage[absolute,overlay]{textpos}
 \usepackage{graphicx}
@@ -65,6 +87,9 @@
 \SetTblrInner[longtblr]{
     belowsep=0pt
 }
+
+% \SetTblrInner{abovesep=0pt, belowsep=0pt}
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
