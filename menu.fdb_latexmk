@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1734444063.79315 "/home/michael/Downloads/TASMenu/menu.tex" "menu.pdf" "menu" 1734444071.34647 0
+["pdflatex"] 1734837950.94098 "/home/michael/Downloads/TASMenu/menu.tex" "menu.pdf" "menu" 1734837958.69072 0
   "/etc/texmf/web2c/texmf.cnf" 1729144560.40228 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/michael/Downloads/TASMenu/menu.tex" 1734443678.54146 7165 489d4c6998aa083336095c746d1d2665 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -161,15 +161,15 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1729146236 8213280 1befb8796f3baf35450b30ac52d44c7b ""
   "Art Syndicate_LOGO_v2_FINAL.png" 1734016235.36448 387476 4ccf53edb79ee8488736b19912f253b1 ""
   "Wine Map.png" 1734016235.43248 220561 cce1f257f629b49d9db6dea5afe64fda ""
-  "beer_cider_table.tex" 1734444056.22723 1060 384a117e1748299b06b9daf212634961 ""
-  "cocktails_table.tex" 1734444056.22823 1127 28c30f7fb4ba07003b8497be7e7da727 ""
-  "food_table.tex" 1734444056.23323 598 710ea7df734ae7dad649f217909a4d1f ""
-  "menu.aux" 1734444071.25714 3483 c7f5306196fb160cf109d23dc8274e14 "pdflatex"
+  "beer_cider_table.tex" 1734837944.17388 1060 384a117e1748299b06b9daf212634961 ""
+  "cocktails_table.tex" 1734837944.17489 1127 28c30f7fb4ba07003b8497be7e7da727 ""
+  "food_table.tex" 1734837944.17989 598 710ea7df734ae7dad649f217909a4d1f ""
+  "menu.aux" 1734837958.60744 3483 3d0d3c575290ae654d1d9c9f4c403a87 "pdflatex"
   "menu.tex" 1734443678.54146 7165 489d4c6998aa083336095c746d1d2665 ""
-  "more_spirits_table.tex" 1734444056.23123 943 0817f04f8ea9d3f40bdb7edf4b743918 ""
-  "non_alcoholic_table.tex" 1734444056.23223 1877 33f442d6b2484c2d19bef17a387bfbd8 ""
-  "spirits_tables.tex" 1734444056.23023 3515 71b926db8363b2f85628dbc817997897 ""
-  "wine_tables.tex" 1734444056.22623 11289 e729ee3f8504d885fa564169354c3dec ""
+  "more_spirits_table.tex" 1734837944.17789 943 0817f04f8ea9d3f40bdb7edf4b743918 ""
+  "non_alcoholic_table.tex" 1734837944.17889 1877 33f442d6b2484c2d19bef17a387bfbd8 ""
+  "spirits_tables.tex" 1734837944.17689 3515 71b926db8363b2f85628dbc817997897 ""
+  "wine_tables.tex" 1734837944.17288 11411 ca393d9d94171ea2d6ae036a5b01691e ""
   (generated)
   "menu.aux"
   "menu.log"
