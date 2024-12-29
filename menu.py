@@ -98,7 +98,7 @@ def generate_wine_menu(data):
         if row["Heading"] != current_heading:
             # Close previous longtblr environment if necessary
             if current_heading is not None:
-                table += "\\end{longtblr}\n\n\\vspace{-25pt} \n"
+                table += "\\end{longtblr}\n\n\\vspace{-15pt} \n"
             # Start new longtblr environment
             current_heading = row["Heading"]
             count += 1
@@ -143,18 +143,18 @@ def generate_wine_menu(data):
 
     # Close the last longtblr environment
     if current_heading is not None:
-        table += "\\end{longtblr}\n\n\\vspace{-25pt} \n"
+        table += "\\end{longtblr}\n\n\\vspace{-15pt} \n"
     
     table = table.replace(
         """    \\pagebreak
     \\\\\\end{longtblr}
 
-\\vspace{-25pt} 
+\\vspace{-15pt} 
 """,
 """    
     \\end{longtblr}
 
-\\vspace{-25pt} 
+\\vspace{-15pt} 
 \\pagebreak"""
     )
 
@@ -539,6 +539,7 @@ def generate_food_table(data):
     % vlines,
 }
 \hline\hline
+\\
 """
     # Generate rows
     for _, row in data.iterrows():

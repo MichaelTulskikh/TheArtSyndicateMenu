@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.12.29)  29 DEC 2024 17:29
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.12.29)  29 DEC 2024 18:07
  restricted system commands enabled.
 **menu.tex
 (./menu.tex
@@ -1160,7 +1160,7 @@ Overfull \hbox (12.0pt too wide) detected at line 126
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 
-Package tabularray Warning: Table width is too small, need 1.98705pt more!
+Package tabularray Warning: Table width is too small, need 2.00934pt more!
 
 > Step: build the whole table.
 
@@ -1368,15 +1368,26 @@ Overfull \hbox (12.0pt too wide) detected at line 38
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
+
+
+Package tabularray Warning: Table width is too small, need 86.42862pt more!
+
 > Step: build the whole table.
 
-Overfull \hbox (12.0pt too wide) detected at line 51
+Overfull \hbox (86.42862pt too wide) detected at line 60
+ [] 
+ []
+
+
+
+[16]
+Overfull \hbox (86.42862pt too wide) detected at line 60
  [] 
  []
 
 )
 
-[16] (./food_table.tex
+[17] (./food_table.tex
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1386,17 +1397,17 @@ Overfull \hbox (12.0pt too wide) detected at line 51
 > Step: calculate cell and line sizes.
 
 
-Package tabularray Warning: Table width is too small, need 2.432pt more!
+Package tabularray Warning: Table width is too small, need 4.39655pt more!
 
 > Step: build the whole table.
 
-Overfull \hbox (12.0pt too wide) detected at line 27
+Overfull \hbox (12.0pt too wide) detected at line 28
  [] 
  []
 
 )
 
-[17]
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 221--223
 
  []
@@ -1424,7 +1435,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 231.
 
 
-[18] (./menu.aux
+[19] (./menu.aux
 <Reading QR code for "https://www.theartsyndicate.com.au" at level 3-M from aux
  file.>
 )
@@ -1435,16 +1446,16 @@ L3 programming layer <2024-11-02>
 )
 
 Here is how much of LuaTeX's memory you used:
- 26614 strings out of 475630
+ 26618 strings out of 475630
  125189,3417909 words of node,token memory allocated
  463 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 10 attribute, 55 glue_spec
 , 6 attribute_list, 3 write nodes
-   avail lists: 1:1,2:5597,3:190,4:161,5:601,6:165,7:6941,8:26,9:3644,10:18,11:3
+   avail lists: 1:1,2:5603,3:240,4:164,5:601,6:221,7:6947,8:26,9:3644,10:18,11:3
 15
- 48917 multiletter control sequences out of 65536+600000
+ 48921 multiletter control sequences out of 65536+600000
  39 fonts using 2356159 bytes
- 87i,11n,104p,926b,3167s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,11n,106p,926b,3170s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/saxon/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/U
 sers/saxon/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users
 /saxon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
@@ -1455,9 +1466,9 @@ fb><C:/Users/saxon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb
 :/Users/saxon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/U
 sers/saxon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Us
 ers/saxon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb>
-Output written on menu.pdf (18 pages, 651420 bytes).
+Output written on menu.pdf (19 pages, 652099 bytes).
 
-PDF statistics: 100 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 103 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
