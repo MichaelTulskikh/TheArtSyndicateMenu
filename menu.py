@@ -185,7 +185,7 @@ def format_beer_cider_row(row):
     
     return rf"""
 \SetCell[c=3]{{\linewidth}} & & \\
-{glass_price} & {{{winery} \\ {region}}} & ``{name}'' \\
+{glass_price} & {{{winery} \\ {region}}} & {name} \\
 """
 
 # Function to generate the LaTeX table
@@ -494,18 +494,6 @@ def generate_non_alcoholic_table(data):
 """
         
     table += r"""
-    4   & Coffee: Espresso    & Numero Uno Coffee Roasters, St Peters.\\
-    \SetCell[c=3]{\linewidth} & & \\
-
-    5   & Coffee: Long black  & \\
-    \SetCell[c=3]{\linewidth} & & \\
-
-    5.5 & Coffee: White       & \\
-    \SetCell[c=3]{\linewidth} & & \\
-    \\
-    \\
-    \\
-    \\
     4.5 & Sparkling water & Unlimited refills \\
     \SetCell[c=3]{\linewidth} & & \\
 
@@ -520,7 +508,7 @@ def generate_non_alcoholic_table(data):
 
 # Filter rows for 'Non-alcoholic'
 non_alcoholic_df = df[df["Heading"].str.contains(r'\bNon-alcoholic\b', na=False, case=False)]
-non_alcoholic_df = non_alcoholic_df.iloc[:-5]
+non_alcoholic_df = non_alcoholic_df.iloc[:-1]
 
 # Generate LaTeX table for Non-alcoholic items
 non_alcoholic_latex = generate_non_alcoholic_table(non_alcoholic_df)
