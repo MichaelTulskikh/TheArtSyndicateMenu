@@ -30,7 +30,7 @@ def format_region(region):
         lines.append(" ".join(current_line))  # Add the last line
         return " \\\\ ".join(lines)
     
-def format_grape_variety(grape_variety, max_length=35):
+def format_grape_variety(grape_variety, max_length=40):
     """
     Format grape variety list: If the string exceeds max_length,
     split at a comma and push the remaining text to a new line.
@@ -49,6 +49,9 @@ def format_grape_variety(grape_variety, max_length=35):
 
     for i, part in enumerate(parts):
         part = part.strip()  # Remove extra spaces
+        # part = part.strip('/n')
+        # print("HERE")
+        # print(part)
         addition = (part + ",") if i < len(parts) - 1 else part  # Add comma if not last part
         
         # Check if adding this part exceeds the max_length
@@ -157,6 +160,16 @@ def generate_wine_menu(data):
 \\vspace{-15pt} 
 \\pagebreak"""
     )
+
+    table = table.replace(
+        """
+    {\\17 / 84} & {2021 Topper's Mountain Wines "Hill of Dreams" \\ Sauvignon Blanc, \\
+Verdejo Grüner Veltliner, \\ Mark and Stephanie Kirkby} & {New England} \\
+    \\
+""","""
+    {\\17 / 84} & {2021 Topper's Mountain Wines "Hill of Dreams" \\ Sauvignon Blanc, Verdejo, Grüner Veltliner \\ Mark and Stephanie Kirkby} & {New England} \\
+    \\
+""")
 
     return table
 
