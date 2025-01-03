@@ -494,9 +494,9 @@ def generate_non_alcoholic_table(data):
 """
         
     table += r"""
-    4.5 & Sparkling water & Unlimited refills \\
+    4.5 & Sparkling water & Unlimited  \\
     \SetCell[c=3]{\linewidth} & & \\
-
+    \vspace{-10pt}
     -   & {tap\textsuperscript{\texttrademark} by Sydney Water \\ Wollondilly Shire } & ~ \\
     \SetCell[c=3]{\linewidth, halign=l} Bearing no notes or hints of anything, this special blend suits all tastes. Officially known as ``tap\textsuperscript{\texttrademark} A Sydney Water Product'', locals refer to it as the ``Warragamba Slammer'' & ~ & ~ \\
     """
@@ -508,7 +508,7 @@ def generate_non_alcoholic_table(data):
 
 # Filter rows for 'Non-alcoholic'
 non_alcoholic_df = df[df["Heading"].str.contains(r'\bNon-alcoholic\b', na=False, case=False)]
-non_alcoholic_df = non_alcoholic_df.iloc[:-1]
+non_alcoholic_df = non_alcoholic_df.iloc[1:-1]
 
 # Generate LaTeX table for Non-alcoholic items
 non_alcoholic_latex = generate_non_alcoholic_table(non_alcoholic_df)
