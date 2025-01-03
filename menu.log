@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.8.14)  3 JAN 2025 23:55
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.8.14)  4 JAN 2025 00:10
  restricted system commands enabled.
 **menu.tex
 (./menu.tex
@@ -996,6 +996,8 @@ Package luatex.def Info: Art Syndicate_LOGO_v2_FINAL.png  used on input line 14
 (luatex.def)             Requested size: 341.43306pt x 341.43576pt.
 
 
+! I can't write on file `menu.pdf'.
+Please type another file name for output: 
 [1
 
 {C:/Users/saxon/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./Art Syndicat
@@ -1219,8 +1221,6 @@ Overfull \hbox (12.0pt too wide) detected at line 225
  []
 
 )
-
-[10]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1244,6 +1244,13 @@ Overfull \hbox (12.0pt too wide) detected at line 198
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
 
+Overfull \hbox (12.0pt too wide) detected at line 36
+ [] 
+ []
+
+
+
+[10]
 Overfull \hbox (12.0pt too wide) detected at line 36
  [] 
  []
@@ -1441,15 +1448,15 @@ L3 programming layer <2024-05-27>
 )
 
 Here is how much of LuaTeX's memory you used:
- 26557 strings out of 475915
- 125189,4101490 words of node,token memory allocated
+ 26559 strings out of 475915
+ 125189,3417909 words of node,token memory allocated
  463 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 10 attribute, 55 glue_spec
 , 6 attribute_list, 3 write nodes
-   avail lists: 2:5561,3:193,4:162,5:632,6:168,7:6941,8:26,9:3644,10:17,11:315
+   avail lists: 2:5561,3:193,4:162,5:632,6:169,7:6941,8:26,9:3644,10:17,11:315
  48595 multiletter control sequences out of 65536+600000
  39 fonts using 2356159 bytes
- 87i,11n,104p,926b,3220s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,11n,106p,926b,3220s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/saxon/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/U
 sers/saxon/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users
 /saxon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
@@ -1460,7 +1467,7 @@ fb><C:/Users/saxon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb
 :/Users/saxon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/U
 sers/saxon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Us
 ers/saxon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb>
-Output written on menu.pdf (18 pages, 651806 bytes).
+Output written on menu.pdf (18 pages, 651899 bytes).
 
 PDF statistics: 100 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)

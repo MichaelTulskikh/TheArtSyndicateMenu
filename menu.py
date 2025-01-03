@@ -181,7 +181,8 @@ def format_beer_cider_row(row):
     winery = row["Winery"] if pd.notna(row["Winery"]) else ""
     region = row["Region"] if pd.notna(row["Region"]) else ""
     name = row["Name"] if pd.notna(row["Name"]) else ""
-    glass_price = int(row["Glass"]) if pd.notna(row["Glass"]) else ""
+    glass_price = f"{int(row['Glass'])}" if row["Glass"].is_integer() else f"{row['Glass']:.1f}" if pd.notna(row["Glass"]) else ""
+
     
     return rf"""
 \SetCell[c=3]{{\linewidth}} & & \\
