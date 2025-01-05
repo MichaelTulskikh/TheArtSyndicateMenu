@@ -232,6 +232,8 @@ def generate_beer_cider_table(data):
 # Generate the LaTeX table
 latex_table = generate_beer_cider_table(beer_cider_df)
 
+latex_table = latex_table.replace("""Ask about our latest tap beers, \\\\ or just look at our tap.""", """{Ask about our latest tap beers, \\\\ or just look at our tap.}""")
+
 # Save the LaTeX output to a file
 with open("beer_cider_table.tex", "w") as file:
     file.write(latex_table)
