@@ -333,7 +333,7 @@ with open("cocktails_table.tex", "w") as file:
 spirits_categories = ["Gin", "Vodka", "Whisky", "Rum", "Liqueur"]
 
 # Function to format LaTeX rows for spirits
-def format_spirit_row(row, displayed_names=set()):
+def format_spirit_row(row, spirit_name, displayed_names=set()):
     """
     Generate LaTeX row for spirits table.
     Escapes special characters in `Name` and `Grape Variety`.
@@ -349,7 +349,18 @@ def format_spirit_row(row, displayed_names=set()):
     else:
         displayed_names.add(combined_name_location)  # Mark as displayed
 
-    return (rf"""
+    if spirit_name == "Vodka":
+         return (rf"""
+    {glass_price} & {{{combined_name_location}}} & \quad \quad \quad \quad \quad {{{grape_variety}}} \\
+    \SetCell[c=3]{{\linewidth}} & & \\
+""", displayed_names)
+    elif spirit_name == "Liqueur":
+         return (rf"""
+    {glass_price} & {{{combined_name_location}}} & \quad \quad \quad \quad \quad \quad {{{grape_variety}}} \\
+    \SetCell[c=3]{{\linewidth}} & & \\
+""", displayed_names)        
+    else:
+        return (rf"""
     {glass_price} & {{{combined_name_location}}} & {{{grape_variety}}} \\
     \SetCell[c=3]{{\linewidth}} & & \\
 """, displayed_names)
@@ -376,7 +387,7 @@ def generate_spirit_table(data, spirit_name):
     disp_names = set()  # Track displayed names to avoid repetition
     # Generate rows
     for _, row in data.iterrows():
-        res = format_spirit_row(row, displayed_names=disp_names)
+        res = format_spirit_row(row, spirit_name, displayed_names=disp_names)
         table += res[0]
         disp_names = res[1]
 

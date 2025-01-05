@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.8.14)  4 JAN 2025 01:32
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.8.14)  5 JAN 2025 23:42
  restricted system commands enabled.
 **menu.tex
 (./menu.tex
@@ -67,7 +67,57 @@ Package: watermark 2004/12/09 v1.1 Watermarks (NCC)
 )
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/needspace/needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
-) (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/base/inputenc.sty
+)
+(C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome5/fontawesom
+e5.sty
+(C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-05-27 L3 programming layer (loader) 
+
+(C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-lua
+tex.def
+File: l3backend-luatex.def 2024-05-08 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count266
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box52
+))
+Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
+
+(C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/l3keys2e/l3k
+eys2e.sty
+Package: l3keys2e 2024-05-08 LaTeX2e option processing using LaTeX3 keys
+)
+(C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xpars
+e.sty
+Package: xparse 2024-05-08 L3 Experimental document command parser
+)
+(C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome5/fontawesom
+e5-utex-helper.sty
+Package: fontawesome5-utex-helper 2022/05/02 v5.15.4 uTeX helper for fontawesom
+e5
+
+(C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/luatex/luatexbase/luatexbase.
+sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+
+(C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/luatex/ctablestack/ctablestac
+k.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count267
+)
+\CatcodeTableOther=\catcodetable14
+\CatcodeTableExpl=\catcodetable15
+)
+LaTeX Font Info:    Trying to load font information for TU+fontawesomefree on i
+nput line 69.
+
+(C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome5/tufontawes
+omefree.fd)
+LaTeX Font Info:    Trying to load font information for TU+fontawesomebrands on
+ input line 70.
+
+(C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome5/tufontawes
+omebrands.fd)))
+(C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
@@ -96,9 +146,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count266
-\Gm@cntv=\count267
-\c@Gm@tempcnt=\count268
+\Gm@cnth=\count268
+\Gm@cntv=\count269
+\c@Gm@tempcnt=\count270
 \Gm@bindingoffset=\dimen141
 \Gm@wd@mp=\dimen142
 \Gm@odd@mp=\dimen143
@@ -112,17 +162,17 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg)) (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty
 Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
 \col@sep=\dimen149
-\ar@mcellbox=\box52
+\ar@mcellbox=\box53
 \extrarowheight=\dimen150
 \NC@list=\toks21
 \extratabsurround=\skip51
 \backup@length=\skip52
-\ar@cellbox=\box53
+\ar@cellbox=\box54
 )
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen151
-\c@nlinenum=\count269
+\c@nlinenum=\count271
 \TeXr@lab=\toks22
 )
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/qrcode/qrcode.sty
@@ -157,34 +207,34 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks23
 \XKV@tempa@toks=\toks24
 )
-\XKV@depth=\count270
+\XKV@depth=\count272
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-\c@qr@i=\count271
-\c@qr@j=\count272
-\qr@a=\count273
-\qr@b=\count274
-\qr@c=\count275
-\qr@for@depth=\count276
-\qr@for@maxdepth=\count277
-\qr@for@start=\count278
-\qr@for@end=\count279
-\qr@for@step=\count280
-\qr@newforcount=\count281
-\qr@newforcount=\count282
+\c@qr@i=\count273
+\c@qr@j=\count274
+\qr@a=\count275
+\qr@b=\count276
+\qr@c=\count277
+\qr@for@depth=\count278
+\qr@for@maxdepth=\count279
+\qr@for@start=\count280
+\qr@for@end=\count281
+\qr@for@step=\count282
+\qr@newforcount=\count283
+\qr@newforcount=\count284
 \qr@desiredheight=\skip53
 \qr@modulesize=\skip54
 \qr@minipagewidth=\skip55
-\c@maski=\count283
-\c@maskj=\count284
-\c@totalones=\count285
-\c@penaltyi=\count286
-\c@penaltyii=\count287
-\c@penaltyiii=\count288
-\c@penaltyiv=\count289
-\c@qr@hexchars=\count290
-\qr@newforcount=\count291
-\c@qr@divisionsremaining=\count292
+\c@maski=\count285
+\c@maskj=\count286
+\c@totalones=\count287
+\c@penaltyi=\count288
+\c@penaltyii=\count289
+\c@penaltyiii=\count290
+\c@penaltyiv=\count291
+\c@qr@hexchars=\count292
+\qr@newforcount=\count293
+\c@qr@divisionsremaining=\count294
 )
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-07-10 v7.01j Hypertext links for LaTeX
@@ -233,11 +283,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count293
+\c@section@level=\count295
 )
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count294
+\etb@tempcnta=\count296
 )
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/generic/stringenc/stringenc.s
 ty
@@ -245,14 +295,14 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \@linkdim=\dimen152
-\Hy@linkcounter=\count295
-\Hy@pagecounter=\count296
+\Hy@linkcounter=\count297
+\Hy@pagecounter=\count298
  (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-07-10 v7.01j Hyperref: PDFDocEncoding definition (HO)
 ) (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count297
+\Hy@SavedSpaceFactor=\count299
  (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-07-10 v7.01j Hyperref: PDF Unicode definition (HO)
 )
@@ -264,7 +314,7 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count298
+\c@Hy@tempcnt=\count300
 
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
@@ -281,7 +331,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count299
+\Fld@menulength=\count301
 \Field@Width=\dimen154
 \Fld@charsize=\dimen155
 Package hyperref Info: Hyper figures OFF on input line 6042.
@@ -296,9 +346,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count300
-\c@Item=\count301
-\c@Hfootnote=\count302
+\Hy@abspage=\count302
+\c@Item=\count303
+\c@Hfootnote=\count304
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hluatex.def
@@ -309,8 +359,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count303
-\c@bookmark@seq@number=\count304
+\Fld@listcount=\count305
+\c@bookmark@seq@number=\count306
 
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfil
 echeck.sty
@@ -325,7 +375,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip56
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 32.
+Package hyperref Info: Option `colorlinks' set `true' on input line 33.
 
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfpages.
 sty
@@ -363,7 +413,7 @@ y
 )
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil
 -latex.def
-\pgfutil@abb=\box54
+\pgfutil@abb=\box55
 )
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfrcs.
 code.tex
@@ -395,14 +445,14 @@ libraryfiltered.code.tex
 \pgf@yd=\dimen169
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count305
-\c@pgf@countb=\count306
-\c@pgf@countc=\count307
-\c@pgf@countd=\count308
+\c@pgf@counta=\count307
+\c@pgf@countb=\count308
+\c@pgf@countc=\count309
+\c@pgf@countd=\count310
 \t@pgf@toka=\toks30
 \t@pgf@tokb=\toks31
 \t@pgf@tokc=\toks32
-\pgf@sys@id@count=\count309
+\pgf@sys@id@count=\count311
 
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgf.c
 fg
@@ -421,8 +471,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
 ssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count310
-\pgfsyssoftpath@bigbuffer@items=\count311
+\pgfsyssoftpath@smallbuffer@items=\count312
+\pgfsyssoftpath@bigbuffer@items=\count313
 )
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
 sprotocol.code.tex
@@ -439,8 +489,8 @@ code.tex)
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathparse
 r.code.tex
 \pgfmath@dimen=\dimen170
-\pgfmath@count=\count312
-\pgfmath@box=\box55
+\pgfmath@count=\count314
+\pgfmath@box=\box56
 \pgfmath@toks=\toks33
 \pgfmath@stack@operand=\toks34
 \pgfmath@stack@operation=\toks35
@@ -467,7 +517,7 @@ ions.integerarithmetics.code.tex)
 code.tex)
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfloat
 .code.tex
-\c@pgfmathroundto@lastzeros=\count313
+\c@pgfmathroundto@lastzeros=\count315
 ))
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfint.code.
 tex)
@@ -504,10 +554,10 @@ File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 escopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box56
-\pgf@hbox=\box57
-\pgf@layerbox@main=\box58
-\pgf@picture@serial@count=\count314
+\pgfpic=\box57
+\pgf@hbox=\box58
+\pgf@layerbox@main=\box59
+\pgf@picture@serial@count=\count316
 )
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 egraphicstate.code.tex
@@ -542,8 +592,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 eshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen194
-\pgf@sys@shading@range@num=\count315
-\pgf@shadingcount=\count316
+\pgf@sys@shading@range@num=\count317
+\pgf@shadingcount=\count318
 )
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 eimage.code.tex
@@ -552,7 +602,7 @@ File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 eexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box59
+\pgfexternal@startupbox=\box60
 )
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 elayers.code.tex
@@ -572,26 +622,26 @@ File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count317
-\calc@Bcount=\count318
+\calc@Acount=\count319
+\calc@Bcount=\count320
 \calc@Adimen=\dimen195
 \calc@Bdimen=\dimen196
 \calc@Askip=\skip57
 \calc@Bskip=\skip58
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count319
+\calc@Ccount=\count321
 \calc@Cskip=\skip59
 )
-\pgf@logicalpages=\count320
-\pgf@firstshipout=\count321
-\pgf@lastshipout=\count322
-\pgf@currentshipout=\count323
-\pgf@cpn=\count324
-\pgf@shipoutnextto=\count325
+\pgf@logicalpages=\count322
+\pgf@firstshipout=\count323
+\pgf@lastshipout=\count324
+\pgf@currentshipout=\count325
+\pgf@cpn=\count326
+\pgf@shipoutnextto=\count327
 \pgfphysicalheight=\dimen197
 \pgfphysicalwidth=\dimen198
-\pgfpages@shipoutbox=\box60
+\pgfpages@shipoutbox=\box61
 )
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and foote
@@ -621,24 +671,15 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@old@col=\dimen257
 \TX@target=\dimen258
 \TX@delta=\dimen259
-\TX@cols=\count326
+\TX@cols=\count328
 \TX@ftn=\toks36
 )
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/tabularray/tabularray.s
-ty (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-05-27 L3 programming layer (loader) 
-
-(C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-lua
-tex.def
-File: l3backend-luatex.def 2024-05-08 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count327
-Inserting `l3color' in `luaotfload.parse_color'.
-\l__pdf_internal_box=\box61
-))
+ty
 Package: tabularray 2024-02-16 v2024A Typeset tabulars and arrays with LaTeX3
-\l__tblr_a_int=\count328
-\l__tblr_c_int=\count329
-\l__tblr_r_int=\count330
+\l__tblr_a_int=\count329
+\l__tblr_c_int=\count330
+\l__tblr_r_int=\count331
 \l__tblr_d_dim=\dimen260
 \l__tblr_h_dim=\dimen261
 \l__tblr_o_dim=\dimen262
@@ -653,25 +694,25 @@ Package: tabularray 2024-02-16 v2024A Typeset tabulars and arrays with LaTeX3
 \l__tblr_b_box=\box63
 \l__tblr_c_box=\box64
 \l__tblr_d_box=\box65
-\g__tblr_table_count_int=\count331
-\c@rownum=\count332
-\c@colnum=\count333
-\c@rowcount=\count334
-\c@colcount=\count335
+\g__tblr_table_count_int=\count332
+\c@rownum=\count333
+\c@colnum=\count334
+\c@rowcount=\count335
+\c@colcount=\count336
 \abovesep=\dimen270
 \belowsep=\dimen271
 \leftsep=\dimen272
 \rightsep=\dimen273
-\g_tblr_level_int=\count336
-\g__tblr_data_row_key_count_int=\count337
-\g__tblr_data_column_key_count_int=\count338
-\g__tblr_data_cell_key_count_int=\count339
-\g__tblr_array_int=\count340
-\l__tblr_key_count_int=\count341
-\l__tblr_key_quotient_int=\count342
-\l__tblr_key_quotient_two_int=\count343
-\l__tblr_key_remainder_int=\count344
-\g__tblr_data_str_value_count_int=\count345
+\g_tblr_level_int=\count337
+\g__tblr_data_row_key_count_int=\count338
+\g__tblr_data_column_key_count_int=\count339
+\g__tblr_data_cell_key_count_int=\count340
+\g__tblr_array_int=\count341
+\l__tblr_key_count_int=\count342
+\l__tblr_key_quotient_int=\count343
+\l__tblr_key_quotient_two_int=\count344
+\l__tblr_key_remainder_int=\count345
+\g__tblr_data_str_value_count_int=\count346
 \rulewidth=\dimen274
 \l__tblr_strut_dp_dim=\dimen275
 \l__tblr_strut_ht_dim=\dimen276
@@ -693,11 +734,11 @@ Package: tabularray 2024-02-16 v2024A Typeset tabulars and arrays with LaTeX3
 \l__tblr_table_middlefoot_box=\box74
 \l__tblr_table_lastfoot_box=\box75
 \l__tblr_remain_height_dim=\dimen284
-\l__tblr_long_from_int=\count346
-\l__tblr_long_to_int=\count347
-\l__tblr_curr_i_int=\count348
-\l__tblr_prev_i_int=\count349
-\l__tblr_table_page_int=\count350
+\l__tblr_long_from_int=\count347
+\l__tblr_long_to_int=\count348
+\l__tblr_curr_i_int=\count349
+\l__tblr_prev_i_int=\count350
+\l__tblr_table_page_int=\count351
 \l__tblr_table_head_box=\box76
 \l__tblr_table_foot_box=\box77
 \l__tblr_table_head_foot_dim=\dimen285
@@ -725,8 +766,7 @@ Package: tabularray 2024-02-16 v2024A Typeset tabulars and arrays with LaTeX3
 \l__tblr_cell_wd_dim=\dimen300
 \l__tblr_cell_ht_dim=\dimen301
 \l__tblr_diag_box=\box85
-)
-(C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/generic/babel/babel.sty
+) (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/generic/babel/babel.sty
 Package: babel 2024/06/26 v24.7 The Babel package
 
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/generic/babel/luababel.def
@@ -809,10 +849,10 @@ Package babel Info: Non-standard hyphenation setup on input line 118.
 \l@uppersorbian=\language76
 \l@usenglishmax=\language77
 \l@welsh=\language78
-\babelcatcodetablenum=\catcodetable14
-\bbl@pattcodes=\catcodetable15
+\babelcatcodetablenum=\catcodetable16
+\bbl@pattcodes=\catcodetable17
 )
-\babel@savecnt=\count351
+\babel@savecnt=\count352
 \U@D=\dimen302
 \l@unhyphenated=\language79
 
@@ -842,28 +882,18 @@ Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
 )
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/lipsum/lipsum.sty
-(C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/l3keys2e/l3k
-eys2e.sty
-Package: l3keys2e 2024-05-08 LaTeX2e option processing using LaTeX3 keys
-)
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count352
-\l__lipsum_a_int=\count353
-\l__lipsum_b_int=\count354
+\g__lipsum_par_int=\count353
+\l__lipsum_a_int=\count354
+\l__lipsum_b_int=\count355
 
-(C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/lipsum/lipsum.ltd.tex))
-(C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xpars
-e.sty
-Package: xparse 2024-05-08 L3 Experimental document command parser
-)
-(C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/multirow/multirow.sty
+(C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/lipsum/lipsum.ltd.tex)) (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/multirow/multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip69
-\multirow@cntb=\count355
+\multirow@cntb=\count356
 \multirow@dima=\skip70
 \bigstrutjot=\dimen303
-)
-(C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/textpos/textpos.sty
+) (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/textpos/textpos.sty
 Package: textpos 2022/07/23 v1.10.1
 Package textpos Info: choosing support for LaTeX3 on input line 60.
 \TP@textbox=\box86
@@ -892,31 +922,31 @@ LaTeX Warning: Unused global option(s):
 )
 \openout1 = menu.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 141.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 142.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-41.
+42.
  (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -957,16 +987,16 @@ LaTeX Font Info:    ... okay on input line 141.
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count356
+\scratchcounter=\count357
 \scratchdimen=\dimen311
 \scratchbox=\box88
-\nofMPsegments=\count357
-\nofMParguments=\count358
+\nofMPsegments=\count358
+\nofMParguments=\count359
 \everyMPshowfont=\toks38
-\MPscratchCnt=\count359
+\MPscratchCnt=\count360
 \MPscratchDim=\dimen312
-\MPnumerator=\count360
-\makeMPintoPDFobject=\count361
+\MPnumerator=\count361
+\makeMPintoPDFobject=\count362
 \everyMPtoPDFconversion=\toks39
 )
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-b
@@ -982,7 +1012,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 
 Package hyperref Warning: Draft mode on.
 
-Package hyperref Info: Link coloring ON on input line 141.
+Package hyperref Info: Link coloring ON on input line 142.
 
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/ninecolors/ninecolors.s
 ty
@@ -992,7 +1022,7 @@ Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 File: Art Syndicate_LOGO_v2_FINAL.png Graphic file (type png)
 <use Art Syndicate_LOGO_v2_FINAL.png>
 Package luatex.def Info: Art Syndicate_LOGO_v2_FINAL.png  used on input line 14
-6.
+7.
 (luatex.def)             Requested size: 341.43306pt x 341.43576pt.
 
 
@@ -1001,61 +1031,61 @@ Package luatex.def Info: Art Syndicate_LOGO_v2_FINAL.png  used on input line 14
 {C:/Users/saxon/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./Art Syndicat
 e_LOGO_v2_FINAL.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 152.
+(Font)              <7> on input line 153.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 152.
+(Font)              <5> on input line 153.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 152--156
+Overfull \hbox (12.0pt too wide) in paragraph at lines 153--157
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--171
+Underfull \hbox (badness 10000) in paragraph at lines 169--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--171
+Underfull \hbox (badness 10000) in paragraph at lines 169--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--171
+Underfull \hbox (badness 10000) in paragraph at lines 169--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--171
+Underfull \hbox (badness 10000) in paragraph at lines 169--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--171
+Underfull \hbox (badness 10000) in paragraph at lines 169--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--171
+Underfull \hbox (badness 10000) in paragraph at lines 169--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--171
+Underfull \hbox (badness 10000) in paragraph at lines 169--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--171
+Underfull \hbox (badness 10000) in paragraph at lines 169--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--171
+Underfull \hbox (badness 10000) in paragraph at lines 169--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--171
+Underfull \hbox (badness 10000) in paragraph at lines 169--172
 
  []
 
@@ -1065,10 +1095,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 168--171
 <Wine Map.png, id=16, 341.33353pt x 296.66519pt>
 File: Wine Map.png Graphic file (type png)
 <use Wine Map.png>
-Package luatex.def Info: Wine Map.png  used on input line 175.
+Package luatex.def Info: Wine Map.png  used on input line 176.
 (luatex.def)             Requested size: 341.43306pt x 296.76857pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--179
+Underfull \hbox (badness 10000) in paragraph at lines 176--180
 
  []
 
@@ -1131,7 +1161,7 @@ Overfull \hbox (12.0pt too wide) detected at line 77
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
 
-Overfull \hbox (12.0pt too wide) detected at line 99
+Overfull \hbox (12.0pt too wide) detected at line 100
  [] 
  []
 
@@ -1152,7 +1182,7 @@ Missing character: There is no ’ (U+2019) in font ec-lmr10!
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
 
-Overfull \hbox (12.0pt too wide) detected at line 125
+Overfull \hbox (12.0pt too wide) detected at line 126
  [] 
  []
 
@@ -1165,21 +1195,21 @@ Overfull \hbox (12.0pt too wide) detected at line 125
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
 
-Overfull \hbox (12.0pt too wide) detected at line 181
+Overfull \hbox (12.0pt too wide) detected at line 182
  [] 
  []
 
 
 
 [7]
-Overfull \hbox (12.0pt too wide) detected at line 181
+Overfull \hbox (12.0pt too wide) detected at line 182
  [] 
  []
 
 
 
 [8]
-Overfull \hbox (12.0pt too wide) detected at line 181
+Overfull \hbox (12.0pt too wide) detected at line 182
  [] 
  []
 
@@ -1192,7 +1222,7 @@ Overfull \hbox (12.0pt too wide) detected at line 181
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
 
-Overfull \hbox (12.0pt too wide) detected at line 203
+Overfull \hbox (12.0pt too wide) detected at line 204
  [] 
  []
 
@@ -1214,7 +1244,7 @@ Missing character: There is no ” (U+201D) in font ec-lmr10!
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
 
-Overfull \hbox (12.0pt too wide) detected at line 224
+Overfull \hbox (12.0pt too wide) detected at line 225
  [] 
  []
 
@@ -1226,13 +1256,9 @@ Overfull \hbox (12.0pt too wide) detected at line 224
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-
-
-Package tabularray Warning: Table width is too small, need 81.84798pt more!
-
 > Step: build the whole table.
 
-Overfull \hbox (81.84798pt too wide) detected at line 39
+Overfull \hbox (12.0pt too wide) detected at line 39
  [] 
  []
 
@@ -1391,12 +1417,12 @@ Overfull \hbox (12.0pt too wide) detected at line 28
 )
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 220--222
+Underfull \hbox (badness 10000) in paragraph at lines 221--223
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--222
+Underfull \hbox (badness 10000) in paragraph at lines 221--223
 
  []
 
@@ -1408,14 +1434,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--222
 <Copying the QR code for "https://www.theartsyndicate.com.au" in version 3-M as
  previously calculated.>
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-25.
+26.
 (C:/Users/saxon/AppData/Local/Programs/MiKTeX/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 230.
+(Font)              <8> on input line 231.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 230.
+(Font)              <6> on input line 231.
 
 
 [17] (./menu.aux
@@ -1429,28 +1455,32 @@ L3 programming layer <2024-05-27>
 )
 
 Here is how much of LuaTeX's memory you used:
- 26560 strings out of 475915
+ 29742 strings out of 475915
  125189,4101490 words of node,token memory allocated
  463 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 10 attribute, 55 glue_spec
 , 6 attribute_list, 3 write nodes
-   avail lists: 2:5567,3:193,4:162,5:632,6:168,7:6941,8:26,9:3644,10:17,11:315
- 48598 multiletter control sequences out of 65536+600000
- 39 fonts using 2356159 bytes
+   avail lists: 1:4,2:5588,3:193,4:162,5:632,6:168,7:6941,8:26,9:3646,10:17,11:3
+15
+ 51750 multiletter control sequences out of 65536+600000
+ 43 fonts using 2866591 bytes
  87i,11n,104p,926b,3220s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{C:/Users/saxon/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/U
-sers/saxon/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users
-/saxon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
-:/Users/saxon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8
-.pfb><C:/Users/saxon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.p
-fb><C:/Users/saxon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb
-><C:/Users/saxon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C
-:/Users/saxon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/U
-sers/saxon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Us
-ers/saxon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb>
-Output written on menu.pdf (17 pages, 651273 bytes).
+<C:/Users/saxon/AppData/Local/Programs/MiKTeX/fonts/opentype/public/fontawesome5
+/FontAwesome5Brands-Regular-400.otf><C:/Users/saxon/AppData/Local/Programs/MiKTe
+X/fonts/opentype/public/fontawesome5/FontAwesome5Free-Solid-900.otf>{C:/Users/sa
+xon/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/saxon/A
+ppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/saxon/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/saxo
+n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Use
+rs/saxon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users
+/saxon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/s
+axon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/saxo
+n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/saxon/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/saxon/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb>
+Output written on menu.pdf (17 pages, 655838 bytes).
 
-PDF statistics: 97 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 111 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
