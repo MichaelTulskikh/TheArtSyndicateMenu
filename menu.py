@@ -162,14 +162,7 @@ def generate_wine_menu(data):
     )
 
     table = table.replace(
-        """
-    {\\17 / 84} & {2021 Topper's Mountain Wines "Hill of Dreams" \\ Sauvignon Blanc, \\
-Verdejo Grüner Veltliner, \\ Mark and Stephanie Kirkby} & {New England} \\
-    \\
-""","""
-    {\\17 / 84} & {2021 Topper's Mountain Wines "Hill of Dreams" \\ Sauvignon Blanc, Verdejo, Grüner Veltliner \\ Mark and Stephanie Kirkby} & {New England} \\
-    \\
-""")
+        """"Hill of Dreams" \\\\ Sauvignon Blanc, \\\\""",""""Hill of Dreams" \\\\ Sauvignon Blanc, """)
 
     return table
 
