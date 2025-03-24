@@ -233,6 +233,9 @@ INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\tex\latex\textpos\textpos.sty
 INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\tex\latex\textpos\textpos.sty
 INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\tex\latex\marvosym\marvosym.sty
 INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\tex\latex\marvosym\marvosym.sty
+INPUT .\menu.aux
+INPUT .\menu.aux
+INPUT menu.aux
 OUTPUT menu.aux
 INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -249,3 +252,133 @@ INPUT .\Art Syndicate_LOGO_v2_FINAL.png
 INPUT .\Art Syndicate_LOGO_v2_FINAL.png
 INPUT .\Art Syndicate_LOGO_v2_FINAL.png
 INPUT .\Art Syndicate_LOGO_v2_FINAL.png
+OUTPUT menu.pdf
+INPUT .\Art Syndicate_LOGO_v2_FINAL.png
+INPUT .\Art Syndicate_LOGO_v2_FINAL.png
+INPUT .\Art Syndicate_LOGO_v2_FINAL.png
+INPUT C:\Users\saxon\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1728.tfm
+INPUT .\Wine Map.png
+INPUT .\Wine Map.png
+INPUT .\Wine Map.png
+INPUT .\Wine Map.png
+INPUT .\Wine Map.png
+INPUT .\Wine Map.png
+INPUT .\Wine Map.png
+INPUT .\wine_tables.tex
+INPUT .\wine_tables.tex
+INPUT wine_tables.tex
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT .\beer_cider_table.tex
+INPUT .\beer_cider_table.tex
+INPUT beer_cider_table.tex
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT .\cocktails_table.tex
+INPUT .\cocktails_table.tex
+INPUT cocktails_table.tex
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT .\spirits_tables.tex
+INPUT .\spirits_tables.tex
+INPUT spirits_tables.tex
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT .\more_spirits_table.tex
+INPUT .\more_spirits_table.tex
+INPUT more_spirits_table.tex
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT .\non_alcoholic_table.tex
+INPUT .\non_alcoholic_table.tex
+INPUT non_alcoholic_table.tex
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0700.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm0700.tfm
+INPUT .\food_table.tex
+INPUT .\food_table.tex
+INPUT food_table.tex
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1000.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0800.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt0800.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt0800.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\tex\latex\fontawesome5\ufontawesomefree0.fd
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\tex\latex\fontawesome5\ufontawesomefree0.fd
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\tex\latex\fontawesome5\ufontawesomefree0.fd
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fontawesome5\fa5free0solid.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\tex\latex\fontawesome5\ufontawesomebrands1.fd
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\tex\latex\fontawesome5\ufontawesomebrands1.fd
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\tex\latex\fontawesome5\ufontawesomebrands1.fd
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fontawesome5\fa5brands1.tfm
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome5\fa5free0.enc
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome5\fa5brands1.enc
+INPUT menu.aux
+INPUT C:\Users\saxon\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi450\ectt0800.pk
+INPUT C:\Users\saxon\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi450\ectt0800.pk
+INPUT C:\Users\saxon\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt0800.pk
+INPUT C:\Users\saxon\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt0800.pk
+INPUT C:\Users\saxon\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk
+INPUT C:\Users\saxon\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk
+INPUT C:\Users\saxon\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk
+INPUT C:\Users\saxon\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk
+INPUT C:\Users\saxon\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0700.pk
+INPUT C:\Users\saxon\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0700.pk
+INPUT C:\Users\saxon\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk
+INPUT C:\Users\saxon\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk
+INPUT C:\Users\saxon\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
+INPUT C:\Users\saxon\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Brands-Regular.pfb
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Brands-Regular.pfb
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Free-Solid.pfb
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Free-Solid.pfb
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT C:\Users\saxon\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
