@@ -66,12 +66,13 @@ def format_grape_variety(grape_variety, max_length=40):
 
     return " \\\\\n".join(formatted_lines)  # Join lines with LaTeX newline
 
-def generate_wine_entry(glass_price, bottle_price, vintage, winery, wine_name, grape_variety, winemaker, region, description):
+def generate_wine_entry(glass_price, carafe_price, bottle_price, vintage, winery, wine_name, grape_variety, winemaker, region, description):
     """
     Generate LaTeX code for a wine entry.
     
     Arguments:
     glass_price    - Price for a glass of wine
+    carafe_price   - Price for a carafe of wine
     bottle_price   - Price for a bottle of wine
     vintage        - Wine vintage (year)
     winery         - Winery name
@@ -85,7 +86,7 @@ def generate_wine_entry(glass_price, bottle_price, vintage, winery, wine_name, g
     LaTeX formatted string
     """
     return f"""    
-    {{\\\\{glass_price} / {bottle_price}}} & {{{vintage} {winery} {wine_name} \\\\ {format_grape_variety(grape_variety)} \\\\ {winemaker}}} & {{{format_region(region)}}} \\\\
+    {{\\\\{glass_price} / {carafe_price} / {bottle_price}}} & {{{vintage} {winery} {wine_name} \\\\ {format_grape_variety(grape_variety)} \\\\ {winemaker}}} & {{{format_region(region)}}} \\\\
     \\\\
     \\SetCell[c=3]{{\\linewidth}}{{{description}}} \\\\
     \\SetCell[c=3]{{\\linewidth}} & & \\\\
@@ -124,6 +125,8 @@ def generate_wine_menu(data):
         # Prepare the row data
         glass_price = row["Glass"] if pd.notna(row["Glass"]) else ""
         glass_price = int(glass_price) if isinstance(glass_price, (float, int)) and glass_price == int(glass_price) else glass_price
+        carafe_price = row["Carafe"] if pd.notna(row["Carafe"]) else ""
+        carafe_price = int(carafe_price) if isinstance(carafe_price, (float, int)) and carafe_price == int(carafe_price) else carafe_price
         bottle_price = row["Bottle"] if pd.notna(row["Bottle"]) else ""
         bottle_price = int(bottle_price) if isinstance(bottle_price, (float, int)) and bottle_price == int(bottle_price) else bottle_price
         vintage = row["Vintage"] if pd.notna(row["Vintage"]) else ""
@@ -135,7 +138,7 @@ def generate_wine_menu(data):
         description = row["Description"] if pd.notna(row["Description"]) else ""
 
         # Add the wine entry
-        table += generate_wine_entry(glass_price, bottle_price, vintage, winery, wine_name, grape_variety, winemaker, region, description)
+        table += generate_wine_entry(glass_price, carafe_price, bottle_price, vintage, winery, wine_name, grape_variety, winemaker, region, description)
         count += 1
 
         # Add a pagebreak if needed
