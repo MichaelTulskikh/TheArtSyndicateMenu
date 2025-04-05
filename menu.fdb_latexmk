@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1743843795.53064 "/home/michael/Documents/TheArtSyndicateMenu/menu.tex" "menu.pdf" "menu" 1743843803.26447 0
+["pdflatex"] 1743844450.17671 "/home/michael/Documents/TheArtSyndicateMenu/menu.tex" "menu.pdf" "menu" 1743844457.76657 0
   "/etc/texmf/web2c/texmf.cnf" 1729144560.40228 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/michael/Documents/TheArtSyndicateMenu/menu.tex" 1743838907.46396 7342 745b655cc1a920bf27ecdf756396a695 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc" 1651520503 2608 3139db8e1f9371a4f87c0715d17fa217 ""
@@ -172,15 +172,15 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1729146236 8213280 1befb8796f3baf35450b30ac52d44c7b ""
   "Art Syndicate_LOGO_v2_FINAL.png" 1743838907.43796 387476 4ccf53edb79ee8488736b19912f253b1 ""
   "Wine Map.png" 1743838907.44596 220561 cce1f257f629b49d9db6dea5afe64fda ""
-  "beer_cider_table.tex" 1743843783.80638 1078 c346a6458a471def6f8e6f3a4f891103 ""
-  "cocktails_table.tex" 1743843783.80838 1120 a083d5774669a949a55a4ff0a2071549 ""
-  "food_table.tex" 1743843783.81938 601 b3543ecdf2cf29c2182766a75682b83d ""
-  "menu.aux" 1743843803.17223 3369 c19a2c74909827bc1c6250a6980c0dd0 "pdflatex"
+  "beer_cider_table.tex" 1743844437.70855 1078 c346a6458a471def6f8e6f3a4f891103 ""
+  "cocktails_table.tex" 1743844437.71055 1120 a083d5774669a949a55a4ff0a2071549 ""
+  "food_table.tex" 1743844437.72155 601 b3543ecdf2cf29c2182766a75682b83d ""
+  "menu.aux" 1743844457.67751 3369 c19a2c74909827bc1c6250a6980c0dd0 "pdflatex"
   "menu.tex" 1743838907.46396 7342 745b655cc1a920bf27ecdf756396a695 ""
-  "more_spirits_table.tex" 1743843783.81638 983 50279f0e0557e5dbb161e9ef2ed19ff2 ""
-  "non_alcoholic_table.tex" 1743843783.81838 1701 d712acffc6e30431be0743c7247650ac ""
-  "spirits_tables.tex" 1743843783.81438 3742 e67f236ed570844338de018dd9aeb4c0 ""
-  "wine_tables.tex" 1743843783.80438 12369 db29413a1b4950adbb306297f9a9066e ""
+  "more_spirits_table.tex" 1743844437.71855 983 50279f0e0557e5dbb161e9ef2ed19ff2 ""
+  "non_alcoholic_table.tex" 1743844437.72055 1701 d712acffc6e30431be0743c7247650ac ""
+  "spirits_tables.tex" 1743844437.71555 3742 e67f236ed570844338de018dd9aeb4c0 ""
+  "wine_tables.tex" 1743844437.70655 12371 72ed4490d26becaaf0c96ef97b739f4a ""
   (generated)
   "menu.aux"
   "menu.log"
