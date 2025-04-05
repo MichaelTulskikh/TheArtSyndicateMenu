@@ -86,8 +86,9 @@ def generate_wine_entry(glass_price, carafe_price, bottle_price, vintage, winery
     Returns:
     LaTeX formatted string
     """
-
-    if current_heading == "Wine - Sweet" or current_heading == "Wine - Non-alcoholic":
+    if type(carafe_price) == str:
+        carafe_price = 0
+    if current_heading == "Wine - Sweet":
         return f"""    
     {{\\\\{glass_price}/{bottle_price}}} & {{{vintage} {winery} {wine_name} \\\\ {format_grape_variety(grape_variety)} \\\\ {winemaker}}} & {{{format_region(region)}}} \\\\
     \\\\
