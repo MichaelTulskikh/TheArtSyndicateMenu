@@ -180,6 +180,49 @@ def generate_wine_menu(data):
     
     table = table.replace("""Wines "Block 5""", """Wines \\\\ "Block 5""")
 
+    table = table.replace(
+    r"""    \SetCell[c=3]{\linewidth} & & \\
+    \pagebreak
+    \\    
+    {\\17/64/85} & {2022 Nashdale Lane "Legacy Rosé" \\ Shiraz \\ 	Tanya and Nick Segger} & {Nashdale, \\Orange} \\
+    \\
+    \SetCell[c=3]{\linewidth}{The Legacy series is all about a patient winemaking approach. Using the heavier grape pressings and aged in seasoned oak for 10 months, this richer style is for everyone enjoying a chilled red. This wine shows aromas of wild strawberries, raspberries and exotic spices leading to a smooth textured finish.} \\
+    \SetCell[c=3]{\linewidth} & & \\
+\end{longtblr}
+
+\vspace{-15pt} 
+
+\begin{longtblr}[
+    theme = TASMenu,
+    caption = \LARGE{Wine - Red},
+    halign = j,
+    valign = m,
+]{
+    width = \linewidth,
+    colspec = llr,
+}
+""",
+    r"""    \\    
+    {\\17/64/85} & {2022 Nashdale Lane "Legacy Rosé" \\ Shiraz \\ 	Tanya and Nick Segger} & {Nashdale, \\Orange} \\
+    \\
+    \SetCell[c=3]{\linewidth}{The Legacy series is all about a patient winemaking approach. Using the heavier grape pressings and aged in seasoned oak for 10 months, this richer style is for everyone enjoying a chilled red. This wine shows aromas of wild strawberries, raspberries and exotic spices leading to a smooth textured finish.} \\
+    \SetCell[c=3]{\linewidth} & & \\
+\end{longtblr}
+
+\vspace{-15pt} 
+\pagebreak
+\begin{longtblr}[
+    theme = TASMenu,
+    caption = \LARGE{Wine - Red},
+    halign = j,
+    valign = m,
+]{
+    width = \linewidth,
+    colspec = llr,
+}
+"""
+)
+
     return table
 
 
