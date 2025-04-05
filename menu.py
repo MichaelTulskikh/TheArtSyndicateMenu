@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+import math
 
 # Load the data
 file_path = 'data.xlsx'
@@ -66,7 +67,7 @@ def format_grape_variety(grape_variety, max_length=40):
 
     return " \\\\\n".join(formatted_lines)  # Join lines with LaTeX newline
 
-def generate_wine_entry(glass_price, carafe_price, bottle_price, vintage, winery, wine_name, grape_variety, winemaker, region, description):
+def generate_wine_entry(glass_price, carafe_price, bottle_price, vintage, winery, wine_name, grape_variety, winemaker, region, description, current_heading):
     """
     Generate LaTeX code for a wine entry.
     
@@ -85,8 +86,17 @@ def generate_wine_entry(glass_price, carafe_price, bottle_price, vintage, winery
     Returns:
     LaTeX formatted string
     """
-    return f"""    
-    {{\\\\{glass_price} / {carafe_price} / {bottle_price}}} & {{{vintage} {winery} {wine_name} \\\\ {format_grape_variety(grape_variety)} \\\\ {winemaker}}} & {{{format_region(region)}}} \\\\
+
+    if current_heading == "Wine - Sweet" or current_heading == "Wine - Non-alcoholic":
+        return f"""    
+    {{\\\\{glass_price}/{bottle_price}}} & {{{vintage} {winery} {wine_name} \\\\ {format_grape_variety(grape_variety)} \\\\ {winemaker}}} & {{{format_region(region)}}} \\\\
+    \\\\
+    \\SetCell[c=3]{{\\linewidth}}{{{description}}} \\\\
+    \\SetCell[c=3]{{\\linewidth}} & & \\\\
+"""
+    else:
+        return f"""    
+    {{\\\\{glass_price}/{math.ceil(carafe_price)}/{bottle_price}}} & {{{vintage} {winery} {wine_name} \\\\ {format_grape_variety(grape_variety)} \\\\ {winemaker}}} & {{{format_region(region)}}} \\\\
     \\\\
     \\SetCell[c=3]{{\\linewidth}}{{{description}}} \\\\
     \\SetCell[c=3]{{\\linewidth}} & & \\\\
@@ -138,7 +148,7 @@ def generate_wine_menu(data):
         description = row["Description"] if pd.notna(row["Description"]) else ""
 
         # Add the wine entry
-        table += generate_wine_entry(glass_price, carafe_price, bottle_price, vintage, winery, wine_name, grape_variety, winemaker, region, description)
+        table += generate_wine_entry(glass_price, carafe_price, bottle_price, vintage, winery, wine_name, grape_variety, winemaker, region, description, current_heading)
         count += 1
 
         # Add a pagebreak if needed
@@ -166,6 +176,8 @@ def generate_wine_menu(data):
 
     table = table.replace(
         """"Hill of Dreams" \\\\ Sauvignon Blanc, \\\\""",""""Hill of Dreams" \\\\ Sauvignon Blanc, """)
+    
+    table = table.replace("""Wines "Block 5""", """Wines \\\\ "Block 5""")
 
     return table
 
