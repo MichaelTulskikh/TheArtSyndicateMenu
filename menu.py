@@ -88,7 +88,8 @@ def generate_wine_entry(glass_price, carafe_price, bottle_price, vintage, winery
     """
     if type(carafe_price) == str:
         carafe_price = 0
-    if current_heading == "Wine - Sweet":
+    if current_heading in ["Wine - Sweet", "Wine - Sparkling"]:
+
         return f"""    
     {{\\\\{glass_price}/{bottle_price}}} & {{{vintage} {winery} {wine_name} \\\\ {format_grape_variety(grape_variety)} \\\\ {winemaker}}} & {{{format_region(region)}}} \\\\
     \\\\
